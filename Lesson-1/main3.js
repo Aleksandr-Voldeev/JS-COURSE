@@ -17,7 +17,6 @@ let time = 2;
 let speedOfFirst = 95;
 let speedOfSecond = 114;
 
-let сonvergence = 95+114; //скорость сближения
-let between = 209; //растояние между городами
+let result = time * (speedOfFirst + speedOfSecond);
 
-console.log(between);
+console.log(result);
